@@ -33,10 +33,13 @@ QuantumForge is an advanced OpenGL-based graphics engine built for modern game d
 Before you begin, ensure you have the following installed:
 
 - C++17 or higher
-- OpenGL 4.5 or higher
-- CMake (version 3.16+)
+- OpenGL 3.3 or higher
+- makefile
 - GLFW
 - GLAD
+- glm
+- stb
+- json
 - Assimp
 - FreeType (for text rendering)
 - OpenAL (for audio)
@@ -54,7 +57,6 @@ Before you begin, ensure you have the following installed:
     ```bash
     mkdir build
     cd build
-    cmake ..
     make
     ```
 
